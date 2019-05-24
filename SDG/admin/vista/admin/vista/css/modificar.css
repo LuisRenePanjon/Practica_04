@@ -1,0 +1,34 @@
+table {
+	width: 100%;
+}
+
+table th {
+	text-align: left;
+	width: 100px;
+	padding: 5px 0px;
+}
+
+table input {
+	width: 100%;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background-color: #fff;
+}
+
+#change {
+	width: 60%;
+	padding: 5px;
+}
+
+#modificar, #cancelar {
+	width: 42%;
+	padding: 5px;
+	margin-left: 2%;s
+	margin-right: 2%;
+	border-radius: 3px;
+}
+
+#modificar:hover, #cancelar:hover, #change:hover {
+	background-color: rgba(154, 187, 181, 0.2);
+}
